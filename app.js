@@ -55,7 +55,13 @@ bcrypt.genSalt(10,(err,salt)=>{
     })
     })
 })
-
+// *************logout*******************
+app.get("/logout",(req,res)=>{
+    // just remove the cookie
+    res.cookie('token','')
+    console.log('user loged out')
+    res.redirect('/')
+})
 
 
 app.listen(8000)
