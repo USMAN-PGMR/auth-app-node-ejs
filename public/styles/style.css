@@ -9,3 +9,33 @@ body {
     border-radius: 8px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
+
+
+.profile{
+   
+    body {
+        background-color: #f8f9fa;
+    }
+    .sidebar {
+        min-height: 100vh;
+        background: #1f3559;
+        padding-top: 20px;
+        color: white;
+    }
+    .sidebar a {
+        color: white;
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+    }
+    .sidebar a:hover {
+        background: #14427d;
+    }
+    .profile-img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+}
